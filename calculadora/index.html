@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora y Recursos</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Calculadora</h1>
+    </div>
+    
+    <div class="calculadora">
+        <input type="text" id="display" readonly>
+        <div class="botones">
+            <button onclick="addToScreen('7')">7</button>
+            <button onclick="addToScreen('8')">8</button>
+            <button onclick="addToScreen('9')">9</button>
+            <button onclick="addToScreen('/')">/</button>
+            <button onclick="addToScreen('4')">4</button>
+            <button onclick="addToScreen('5')">5</button>
+            <button onclick="addToScreen('6')">6</button>
+            <button onclick="addToScreen('*')">*</button>
+            <button onclick="addToScreen('1')">1</button>
+            <button onclick="addToScreen('2')">2</button>
+            <button onclick="addToScreen('3')">3</button>
+            <button onclick="addToScreen('-')">-</button>
+            <button onclick="addToScreen('0')">0</button>
+            <button onclick="addToScreen('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="addToScreen('+')">+</button>
+        </div>
+        <button onclick="clearScreen()">Limpiar</button>
+    </div>
+
+    <div class="video-container">
+        <iframe width="939" height="528" src="https://www.youtube.com/embed/mfLcKDhZfHA" title="Segunda Matrícula SGA - UTM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
